@@ -21,10 +21,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'gmail',
-        'Pudis.pus',
+        'service_gd64lgm',
+        'template_6gqav1p',
         form.current,
-        'your-token'
+        '8FxhnhGRQbH4pPseCQ6VM'
       )
       .then(
         () => {
