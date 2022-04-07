@@ -1,19 +1,18 @@
 import './index.scss'
-// import Me from '../../assets/images/imageMe.png'
+import Me from '../../assets/images/My Logo (w).png'
 // import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
   return (
     <div className="nav-bar">
-      {/* title logo
-      <Link className="logo" to="/">
-        <img src={LogoS} alt="Logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />  
-      </Link> */}
+      <div className="logo">
+        <img src={Me} alt="Logo" />
+        {/* <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />   */}
+      </div>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
