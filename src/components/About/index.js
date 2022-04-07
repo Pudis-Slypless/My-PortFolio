@@ -55,46 +55,44 @@ const About = () => {
             />
           </h1>
           <div className="education">
-            <div className='major'>
-            <h2>
-              <AnimatedLetters
-                letterClass={letterClass}
-                strArray={[
-                  'A',
-                  'g',
-                  'r',
-                  'i',
-                  'c',
-                  'u',
-                  'l',
-                  't',
-                  'u',
-                  'r',
-                  'e',
-                  '',
-                  't',
-                  'e',
-                  'c',
-                  'h',
-                  'n',
-                  'o',
-                  'l',
-                  'o',
-                  'g',
-                  'y',
-                ]}
-                idx={15}
+            <div className="major">
+              <h2>
+                <AnimatedLetters
+                  letterClass={letterClass}
+                  strArray={[
+                    'A',
+                    'g',
+                    'r',
+                    'i',
+                    'c',
+                    'u',
+                    'l',
+                    't',
+                    'u',
+                    'r',
+                    'e',
+                    '',
+                    't',
+                    'e',
+                    'c',
+                    'h',
+                    'n',
+                    'o',
+                    'l',
+                    'o',
+                    'g',
+                    'y',
+                  ]}
+                  idx={15}
                 />
-            </h2>
+              </h2>
             </div>
-            <p>
-              Rajamangala University of Technologies
-            </p>
+            <p>Rajamangala University of Technologies</p>
             <div>
               <p>
-              Bachelor of science, Agriculture of Technology.
-              <br />
-              Second class honors
+                Bachelor of science, Agriculture of Technology.
+                <br />
+                Second class honors.
               </p>
             </div>
           </div>
