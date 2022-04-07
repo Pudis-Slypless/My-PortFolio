@@ -4,14 +4,13 @@ import Me from '../../assets/images/My Logo (w).png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
   return (
     <div className="nav-bar">
       <div className="logo">
         <img src={Me} alt="Logo" />
-        {/* <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />   */}
       </div>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
