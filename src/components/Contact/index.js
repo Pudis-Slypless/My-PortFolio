@@ -3,8 +3,10 @@ import Loader from 'react-loaders'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import { init } from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+init('i8D9W18KbYYb7ptPt')
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -24,7 +26,7 @@ const Contact = () => {
         'service_gd64lgm',
         'template_6gqav1p',
         form.current,
-        '8FxhnhGRQbH4pPseCQ6VM'
+        'i8D9W18KbYYb7ptPt'
       )
       .then(
         () => {

@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "surge": "^0.23.1"
   }
 }
