@@ -1,0 +1,49 @@
+.projectLogo {
+    width: 200px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    padding-left: 63px;
+    
+}
+
+.banner {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    color: beige;
+    margin-left: 60px;
+
+}
+
+.projectPic {
+    width: 30rem;
+}
+
+.cardProject {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 60px;
+    color: aliceblue;
+}
+
+.project {
+    width: 300px;
+    margin: 0 50px 0 50px;
+    font-size: small;
+}
+
+p {
+    animation: pulse 1s;
+    &:nth-of-type(1) {
+      animation-delay: 1.1s;
+    }
+    &:nth-of-type(2) {
+      animation-delay: 1.2s;
+    }
+    &:nth-of-type(3) {
+      animation-delay: 1.3s;
+    }
+  }

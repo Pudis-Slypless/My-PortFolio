@@ -3,6 +3,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Layout from './components/Layout'
+import Projects from './components/Project/Project'
 import './App.scss'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="Projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
