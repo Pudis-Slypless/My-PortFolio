@@ -18,7 +18,7 @@ const About = () => {
   useEffect(() => {
     return setTimeout(() => {
       setLetterClass('text-animate-hover')
-    }, 3000)
+    }, 4000)
   }, [])
 
   return (
@@ -83,7 +83,7 @@ const About = () => {
                     'g',
                     'y',
                   ]}
-                  idx={15}
+                  idx={14}
                 />
               </h2>
             </div>
