@@ -77,7 +77,7 @@ const Projects = () => {
                 </a>
               </div>
               <div className="project">
-                <h2>MongoBD Database</h2>
+                <h2>Web PortFolio</h2>
                 <img src={Web} alt="projectJamming" className="projectPic" />
                 <p>
                   It's a project while learning JSD#1. <br />
