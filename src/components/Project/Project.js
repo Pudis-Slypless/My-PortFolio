@@ -3,6 +3,8 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import Me from '../../assets/images/My-Logo-(w).png'
 import Jamming from '../../assets/images/Jamming.png'
+import Infinity from '../../assets/images/InfinityTracking.png'
+import Web from '../../assets/images/WebPort.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFolderOpen } from '@fortawesome/free-solid-svg-icons'
 import './Project.scss'
@@ -11,7 +13,7 @@ const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   useEffect(() => {
-    return setTimeout(() => {
+    setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
@@ -56,18 +58,18 @@ const Projects = () => {
               <div className="project">
                 <h2>Infinity Tracking app</h2>
                 <img
-                  src={Jamming}
+                  src={Infinity}
                   alt="projectJamming"
                   className="projectPic"
                 />
                 <p>
                   It's a project while learning JSD#1. <br />
-                  Learning about how to use React, and learning to use function
-                  such as Props, useState, useEffect, splitting Component and
-                  using APIs elsewhere
+                  Put the knowledge learned over the course of Cohort#1, apply
+                  and create to present what has been learned and put into
+                  practice to prepare for work.
                 </p>
                 <a
-                  href="https://spoti-sua.surge.sh/"
+                  href="https://infinitytracking.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -76,19 +78,14 @@ const Projects = () => {
               </div>
               <div className="project">
                 <h2>MongoBD Database</h2>
-                <img
-                  src={Jamming}
-                  alt="projectJamming"
-                  className="projectPic"
-                />
+                <img src={Web} alt="projectJamming" className="projectPic" />
                 <p>
                   It's a project while learning JSD#1. <br />
-                  Learning about how to use React, and learning to use function
-                  such as Props, useState, useEffect, splitting Component and
-                  using APIs elsewhere
+                  Experiment with existing framework or templates and apply them
+                  to my work
                 </p>
                 <a
-                  href="https://spoti-sua.surge.sh/"
+                  href="https://webportfolio-pudis.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
