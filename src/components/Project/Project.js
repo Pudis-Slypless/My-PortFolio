@@ -19,7 +19,7 @@ const Projects = () => {
   }, [])
 
   return (
-    <div className='text-body'>
+    <div className="text-body">
       <div className="container project-page">
         <img src={Me} alt="Logo" className="projectLogo" />
         <div className="text-zone">

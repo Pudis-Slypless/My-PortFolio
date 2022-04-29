@@ -23,7 +23,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_gd64lgm',
+        'service_lls8vfv',
         'template_6gqav1p',
         form.current,
         'i8D9W18KbYYb7ptPt'
@@ -37,6 +37,7 @@ const Contact = () => {
           alert('Failed to send the message, please try again')
         }
       )
+      e.target.reset()
   }
 
   return (
